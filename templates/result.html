@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container result">
+        <h1>{{ model_type }} Prediction Result</h1>
+        <p>Result: <strong>{{ result }}</strong></p>
+        <a href="/">Make another prediction</a>
+    </div>
+</body>
+</html>
